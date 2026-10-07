@@ -1,6 +1,6 @@
 # Resultados — Braço A (só números)
 
-**Data:** 06/10/2026 · **Modelo:** `jev-1.13.0` · **Pré-registro:** [PREREGISTRATION.md](../PREREGISTRATION.md) (commit `250faac`, feito antes de qualquer previsão de teste)
+**Data:** 06/10/2026 · **Modelo:** `jev-1.13.0` · **Pré-registro:** [PREREGISTRATION.md](../PREREGISTRATION.md) (commit `be64747`, feito antes de qualquer previsão de teste)
 **Notebook com gráficos e tabelas:** [02_resultados_braco_a](../notebooks/02_resultados_braco_a.ipynb)
 
 ## Resumo
