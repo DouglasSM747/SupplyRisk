@@ -1,7 +1,7 @@
 [project]
 name = "supplyrisk"
 version = "0.1.0"
-description = "Add your description here"
+description = "Can an untrained decision model forecast low-water events on the Rio Negro at Manaus? An evaluation of Jev against traditional forecasting methods."
 authors = [
     { name = "Douglas", email = "douglas.sm747@gmail.com" }
 ]

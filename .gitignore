@@ -3,3 +3,8 @@
 __pycache__/
 .ipynb_checkpoints/
 data/cache/
+
+# não versionados
+.agents/
+skills-lock.json
+docs/pesquisa-inicial.md
