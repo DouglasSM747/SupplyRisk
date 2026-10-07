@@ -1,0 +1,13 @@
+tarefa,tipo,comparacao,brier_jev,brier_outro,outro,diferenca,ic95,p_jev_melhor,veredito
+15.00 m / 14 d,secundária,1. Jev bruto × climatologia,0.00940529332206255,0.02336366427328846,climatologia__principal,-0.01395837095122591,"(np.float64(-0.0428), np.float64(0.0065))",0.872,empate (IC contém 0)
+15.00 m / 14 d,secundária,2. Jev calibrado × melhor baseline calibrado,0.009405444981182377,0.006543399622362207,gradient_boosting__so_manaus__cal,0.0028620453588201703,"(np.float64(-0.001), np.float64(0.0088))",0.1565,empate (IC contém 0)
+15.00 m / 14 d,secundária,extra: Jev bruto × melhor baseline bruto,0.00940529332206255,0.009994364006605996,gradient_boosting__so_manaus,-0.0005890706845434451,"(np.float64(-0.0097), np.float64(0.0075))",0.5355,empate (IC contém 0)
+15.00 m / 30 d,secundária,1. Jev bruto × climatologia,0.03401410819949281,0.04561761489769849,climatologia__principal,-0.01160350669820568,"(np.float64(-0.0569), np.float64(0.0211))",0.6685,empate (IC contém 0)
+15.00 m / 30 d,secundária,2. Jev calibrado × melhor baseline calibrado,0.035039546576780545,0.03728291412450293,gradient_boosting__so_manaus__cal,-0.0022433675477223844,"(np.float64(-0.0227), np.float64(0.0119))",0.5615,empate (IC contém 0)
+15.00 m / 30 d,secundária,extra: Jev bruto × melhor baseline bruto,0.03401410819949281,0.039400275485932376,gradient_boosting__so_manaus,-0.005386167286439564,"(np.float64(-0.0454), np.float64(0.0215))",0.573,empate (IC contém 0)
+17.70 m / 14 d,principal,1. Jev bruto × climatologia,0.041547236768802225,0.07747328014350921,climatologia__principal,-0.035926043374706985,"(np.float64(-0.0623), np.float64(-0.0074))",0.992,Jev melhor
+17.70 m / 14 d,principal,2. Jev calibrado × melhor baseline calibrado,0.0429820880709915,0.03510567653914355,logistica__so_manaus__cal,0.007876411531847947,"(np.float64(-0.0034), np.float64(0.0206))",0.0965,empate (IC contém 0)
+17.70 m / 14 d,principal,extra: Jev bruto × melhor baseline bruto,0.041547236768802225,0.03505471932172036,logistica__so_manaus,0.006492517447081868,"(np.float64(-0.0044), np.float64(0.0188))",0.1335,empate (IC contém 0)
+17.70 m / 30 d,principal,1. Jev bruto × climatologia,0.1146403147632312,0.15021547030169893,climatologia__principal,-0.03557515553846774,"(np.float64(-0.0762), np.float64(0.0039))",0.9565,empate (IC contém 0)
+17.70 m / 30 d,principal,2. Jev calibrado × melhor baseline calibrado,0.12199530477396867,0.1036756788443405,logistica__so_manaus__cal,0.018319625929628172,"(np.float64(-0.006), np.float64(0.0476))",0.081,empate (IC contém 0)
+17.70 m / 30 d,principal,extra: Jev bruto × melhor baseline bruto,0.1146403147632312,0.10369681799922532,logistica__so_manaus,0.01094349676400587,"(np.float64(-0.0102), np.float64(0.034))",0.158,empate (IC contém 0)
