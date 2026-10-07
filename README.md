@@ -7,6 +7,12 @@ Este é um **estudo de avaliação**, não um produto em produção. O resultado
 > Pesquisa original e comparação com o projeto "Amazonas Sentinel": [docs/pesquisa-inicial.md](docs/pesquisa-inicial.md).
 > Dados brutos, organização e padronização: [docs/dados.md](docs/dados.md).
 
+## Resultado do braço A (só números) — 06/10/2026
+
+No teste (2015–2024), o Jev **sem nenhum treino** foi melhor que a climatologia em 17,70 m / 14 dias (IC 95% exclui o empate) e **empatou dentro da incerteza** com o melhor método estatístico treinado (regressão logística), ficando um pouco atrás no valor pontual. Ele foi estável a mudanças no nome e na ordem das opções e não mostrou sinal de memória das secas famosas. No teste final deu um alarme falso em outubro de 2025. Custo total: US$ 0,75.
+
+Relatório completo: [docs/resultados_braco_a.md](docs/resultados_braco_a.md) · gráficos: [notebooks/02_resultados_braco_a.ipynb](notebooks/02_resultados_braco_a.ipynb) · pré-registro: [PREREGISTRATION.md](PREREGISTRATION.md)
+
 ## Por que esse problema
 
 - A régua de Manaus (ANA, estação **14990000**) tem nível diário desde 1902. Isso dá mais de 120 vazantes e um ground truth sem ambiguidade.
@@ -86,10 +92,11 @@ Divisão sempre por ano. Nunca embaralhar dias do mesmo ano.
 - [ ] Pedir credenciais da API da ANA (<hidro@ana.gov.br>)
 - [x] Baixar as séries das estações 14990000 (Manaus) e 14100000 (Manacapuru) e a régua oficial do porto (ver [docs/dados.md](docs/dados.md))
 - [ ] Extrair e anonimizar os boletins do SGB de 2016–2026
-- [ ] Implementar os baselines e o pipeline de avaliação
-- [ ] Escrever e commitar o `PREREGISTRATION.md`
-- [ ] Rodar o Jev (braços A e B, testes de robustez)
-- [ ] Rodar o teste final (2025–2026) uma única vez
+- [x] Implementar os baselines e o pipeline de avaliação
+- [x] Escrever e commitar o `PREREGISTRATION.md` (braço A)
+- [x] Rodar o Jev no braço A, com testes de robustez
+- [ ] Braço B: pré-registro próprio e Jev com os boletins do SGB
+- [x] Rodar o teste final (2025–2026) uma única vez (braço A)
 - [ ] Publicar o repositório e o post
 
 ## Limitações conhecidas

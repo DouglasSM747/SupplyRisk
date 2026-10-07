@@ -1,0 +1,13 @@
+tarefa,tipo,comparacao,brier_jev,brier_outro,outro,diferenca,ic95,p_jev_melhor,veredito
+15.00 m / 14 d,secundária,1. Jev bruto × climatologia,3.7499999999999997e-06,0.00011456798321010665,climatologia__principal,-0.00011081798321010665,"(np.float64(-0.0001), np.float64(-0.0001))",1.0,Jev melhor
+15.00 m / 14 d,secundária,2. Jev calibrado × melhor baseline calibrado,1.0000000000000002e-06,1.0000000000000002e-06,gradient_boosting__so_manaus__cal,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,empate (IC contém 0)
+15.00 m / 14 d,secundária,extra: Jev bruto × melhor baseline bruto,3.7499999999999997e-06,1.0000000000000002e-06,gradient_boosting__so_manaus,2.7499999999999995e-06,"(np.float64(0.0), np.float64(0.0))",0.0,empate (IC contém 0)
+15.00 m / 30 d,secundária,1. Jev bruto × climatologia,0.000284645,0.00011041067655182344,climatologia__principal,0.00017423432344817655,"(np.float64(-0.0), np.float64(0.0003))",0.249,empate (IC contém 0)
+15.00 m / 30 d,secundária,2. Jev calibrado × melhor baseline calibrado,1.0000000000000002e-06,1.0000000000000002e-06,gradient_boosting__so_manaus__cal,0.0,"(np.float64(0.0), np.float64(0.0))",0.0,empate (IC contém 0)
+15.00 m / 30 d,secundária,extra: Jev bruto × melhor baseline bruto,0.000284645,1.0000000000000002e-06,gradient_boosting__so_manaus,0.00028364499999999996,"(np.float64(0.0001), np.float64(0.0004))",0.0,Jev pior
+17.70 m / 14 d,principal,1. Jev bruto × climatologia,0.0008047638888888888,0.002987866780926828,climatologia__principal,-0.0021831028920379393,"(np.float64(-0.0042), np.float64(0.001))",0.751,empate (IC contém 0)
+17.70 m / 14 d,principal,2. Jev calibrado × melhor baseline calibrado,0.00033654790693667537,4.917250285132113e-05,logistica__so_manaus__cal,0.00028737540408535424,"(np.float64(0.0002), np.float64(0.0005))",0.0,Jev pior
+17.70 m / 14 d,principal,extra: Jev bruto × melhor baseline bruto,0.0008047638888888888,0.00015860651096971827,logistica__so_manaus,0.0006461573779191705,"(np.float64(0.0005), np.float64(0.0009))",0.0,Jev pior
+17.70 m / 30 d,principal,1. Jev bruto × climatologia,0.045944185,0.008703883362357966,climatologia__principal,0.03724030163764203,"(np.float64(0.0003), np.float64(0.0562))",0.0,Jev pior
+17.70 m / 30 d,principal,2. Jev calibrado × melhor baseline calibrado,0.02876843066484572,0.008463352360042779,logistica__so_manaus__cal,0.020305078304802944,"(np.float64(0.0002), np.float64(0.0307))",0.0,Jev pior
+17.70 m / 30 d,principal,extra: Jev bruto × melhor baseline bruto,0.045944185,0.009130094578922925,logistica__so_manaus,0.03681409042107707,"(np.float64(0.0007), np.float64(0.0554))",0.0,Jev pior
