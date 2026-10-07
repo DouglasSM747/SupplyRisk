@@ -9,6 +9,8 @@
 
 ![Resultados no teste 2015–2024](figuras/supergrafico_braco_a.png)
 
+![Um caso de perto: 2016](figuras/caso_2016.png)
+
 
 Usado sem nenhum treino nos dados do rio, o Jev tem **habilidade real** para prever se o Rio Negro em Manaus vai cair a 17,70 m em 14 dias. No teste (2015–2024), ele erra bem menos que a climatologia, com IC 95% que exclui o empate. Em 30 dias ele também fica à frente da climatologia, mas o IC encosta no zero.
 
