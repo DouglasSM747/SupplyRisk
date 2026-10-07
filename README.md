@@ -83,7 +83,7 @@ docs/                             data documentation, results, figures
 
 - Ten test years. The 15 m limit was only crossed in two of them (2023 and 2024), so those results are indicative.
 - This is a numeric problem, which is not where Jev is strongest: its docs say it struggles with numeric precision. A follow-up will add text (the weekly SGB hydrological bulletins) to the input.
-- We cannot prove Jev never saw recent river data during its training. The memory test only shows that giving it the year did not help.
+- There is no way to prove Jev never saw recent river data during its training. The memory test only shows that giving it the year did not help.
 
 ## License
 
